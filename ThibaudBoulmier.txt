@@ -30,3 +30,18 @@ nano index.html
 git add index.html
 git commit -m "maj de index"
 git push -u origin main
+nano ThibaudBoulmier.txt
+git add ThibaudBoulmier.txt
+git commit -m "liste commande thibaud"
+git push -u origin main
+git checkout pages
+nano contact.html
+git add contact.html
+git commit -m "page contact et commande"
+git push -u origin pages
+git checkout main
+git merge pages
+nano Thibaud.Boulmier.txt
+git add Thibaud.Boulmier.txt
+git commit -m "maj des commande"
+git push -u origin main
