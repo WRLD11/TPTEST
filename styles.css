@@ -3,5 +3,13 @@
 	color:red;
 	display:flex;
 }
+h1 {
+	color:purple;
+	font-weight:bold;
+}
+nav {
+	display:flex;
+	background-color:yellow;
+}
 
 
