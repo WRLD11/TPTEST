@@ -1,0 +1,32 @@
+cd Documents    
+mkdir TPTEST
+cd TPTEST
+git init
+git remote add origin https://github.com/WRLD11/TPTEST.git
+git config user.name "WRLD11" 
+git config user.email "thibaud.boulmier@gmail.com"  
+git branch
+git branch responsive
+git checkout responsive
+nano style.css
+git add style.css
+git commit -m "responsive css"  
+git push -u origin responsive 
+git checkout main
+git pull
+nano index.html
+git add index.html
+git commit -m "index avec nav"
+git push -u origin main
+git branch
+git checkout pages
+nano produit.html
+git add produit.html
+git commit -m "page des produit"
+git push -u origin pages
+git checkout main
+git pull
+nano index.html
+git add index.html
+git commit -m "maj de index"
+git push -u origin main
