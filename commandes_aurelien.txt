@@ -1,0 +1,21 @@
+git clone https://github.com/WRLD11/TPTEST
+cd TPTEST/
+nano index.html
+git add index.html
+git commit -m "Création du fichier index.html"
+git push -u origin main
+git branch pages
+git checkout pages
+nano index.html
+git add index.html
+git commit -m "Création de la balise link css"
+git push -u origin pages
+git branch css
+git checkout css
+git commit -m "Ajout du fichier css (non responsive)"
+git push -u origin css
+git pull
+git checkout main
+git merge css
+git merge pages
+git merge responsive
