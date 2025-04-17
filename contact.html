@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+      <title>Contact</title>  
+      <meta name="description" content="Page pour passer commande">
+        <meta name="author" content="">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <a href="contact.html">Contact</a>
+        <a href="../index.html">Presentation</a>
+        <a href="produit.html">Produit</a>
+        <link rel="stylesheet" href="../css/style.css">
+
+        <img src="/images/sirop.jpg" height="200" width="1500" alt="">
+
+    <h2>Merci de remplir correctement tous les champs du formulaire</h2>
+    <form action="traitement.php" method="post">
+        <input type="texte" name="Prenom" maxlength="30" id="prenom" placeholder="Prénom">
+        <br>
+        <input type="texte" name="Nom" maxlength="50" id="nom" placeholder="Nom">
+        <br>
+        <input type="texte" name="email" maxlength="100" id="email" placeholder="Email">
+        <br>
+        <input type="" name="numero" maxlength="10" placeholder="Numéro">
+        <br>
+        <label for="saveur">Quel saveur ?</label>
+        <select name="saveur" is="saveur">
+          <option value="1">Citron</option>
+          <option value="2">Framboise</option>
+          <option value="3">Pomme</option>
+          <option value="4">Melon</option>
+        </select>
+	<input type="submit" value="Valider la commande">
+    </form>
+<h2>Merci de votre achat a la prochaine</h2>
+</body>
+</html>
