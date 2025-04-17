@@ -11,5 +11,13 @@ nav {
 	display:flex;
 	background-color:yellow;
 }
+body {
+	background-color:green;
+	flex-wrap:wrap;
+}
+footer{
+	background-color:orange;
+	width:100%;
+}
 
 
