@@ -19,3 +19,9 @@ git checkout main
 git merge css
 git merge pages
 git merge responsive
+git branch mobile
+nano styles.css | j'ai mis le responsive
+git add styles.css
+git commit -m "Ajout ...."
+git push origin mobile
+git checkout main
