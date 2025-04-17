@@ -1,1 +1,11 @@
+cd Documents
+mkdir tptest
+cd tptest
 git remote add origin https://github.com/WRLD11/TPTEST.git
+git init
+git config --global user.email "anticstevan06@gmail.com"
+git config --global user.name "Stevan"
+nano Antic.txt
+git add Antic.txt
+git commit -m "c'est moi"
+git push origin master
