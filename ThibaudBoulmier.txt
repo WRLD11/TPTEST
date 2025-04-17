@@ -45,3 +45,10 @@ nano Thibaud.Boulmier.txt
 git add Thibaud.Boulmier.txt
 git commit -m "maj des commande"
 git push -u origin main
+git push origin --delete responsive
+git checkout main
+nano ThibaudBoulmier.txt
+git add ThibaudBoulmier.txt
+git commit -m "maj"
+git push -u origin main
+
